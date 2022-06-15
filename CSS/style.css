@@ -24,6 +24,7 @@ body {
     width: 517px;
     background-color: #2b585e70;
     border-radius: 33px;
+    box-shadow: 0px 0px 20px 3px rgb(0 0 0 / 50%);
 }
 
 .title {}
