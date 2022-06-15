@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+
+body {
+    background: url(../Images/daniel-leone-v7daTKlZzaw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.reg_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 551px;
+    width: 517px;
+    background-color: #2b585e70;
+    border-radius: 33px;
+}
+
+.title {}
+
+.reg_form .title {
+
+    color: #fff;
+
+    /* padding: 20px 20px 10px 20px; */
+
+    text-align: center;
+
+    position: relative;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    width: 30%;
+
+    margin: auto;
+
+    margin-top: 30px;
+}
+
+.reg_form .title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background-color: #348ea3;
+    /* top: 0; */
+    left: 0;
+    bottom: -6px;
+    transition: .3s all ease-in-out;
+}
+
+.reg_form .title:hover::before {
+    width: 150px;
+}
+
+
+
+form {
+
+    margin: 20px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.input_box {
+
+    padding: 20px 50px 20px 20px;
+}
+
+.input_box label {
+
+    color: #fff;
+
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+
+.input_box input {
+
+    padding: 10px 10px 10px 0px;
+
+    background-color: transparent;
+
+    border: none;
+
+    border-bottom: 1px solid #fff;
+
+    margin-top: 2px;
+}
+
+.gender_box {
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.gender_box label {
+    color: #fff;
+    margin-right: 27px;
+    font-size: 16px;
+}
+
+.gender_box input {
+
+    margin-right: 10px;
+}
+
+.gender_box span {
+
+    color: #fff;
+
+    margin-right: 20px;
+}
+
+.input_box :focus {
+    outline: none;
+}
+
+.input_box input::placeholder {
+    color: #ffffff42;
+}
+
+.submit_btn {
+    margin: 8px 0px 20px 20px;
+}
+
+.submit_btn input {
+
+    border: 1px solid #FFF;
+
+    background-color: transparent;
+
+    color: #fff;
+
+    padding: 7px 30px;
+
+    border-radius: 29px;
+
+    cursor: pointer;
+
+    transition: .5s ease-in-out;
+}
+
+.submit_btn input:hover {
+    background-color: #348ea3;
+}
